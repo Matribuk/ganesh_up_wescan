@@ -11,7 +11,6 @@ import Foundation
 import Vision
 
 /// Enum encapsulating static functions to detect rectangles from an image.
-@available(iOS 11.0, *)
 enum VisionRectangleDetector {
 
     private static func completeImageRequest(
